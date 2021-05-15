@@ -7,15 +7,13 @@ let package = Package(
     name: "ZLPublicKits",
     platforms: [
         .macOS(.v10_11),
-        .iOS(.v9),
+        .iOS(.v13),
         .tvOS(.v9),
         .watchOS(.v2)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "ZLPublicKits",
-            targets: ["ZLPublicKits"]),
+        .library(name: "ZLPublicKits", targets: ["ZLPublicKits"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -30,5 +28,8 @@ let package = Package(
         .testTarget(
             name: "ZLPublicKitsTests",
             dependencies: ["ZLPublicKits"]),
+    ],
+    swiftLanguageVersions: [
+        .v5
     ]
 )

@@ -6,7 +6,7 @@ final class ZLPublicKitsTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(ZLPublicKits().text, "Hello, World!")
+        XCTAssertEqual(ZLPublicKits.ZLFile().name, "Hello, World!")
     }
 
     static var allTests = [
