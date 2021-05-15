@@ -6,16 +6,7 @@
 //
 
 import Foundation
-import SwiftUI
 
 struct ZLFile {
     var name: String = ""
-}
-
-struct MyView: View {
-    
-    var body: some View {
-        Text("添加成功！")
-    }
-    
 }
