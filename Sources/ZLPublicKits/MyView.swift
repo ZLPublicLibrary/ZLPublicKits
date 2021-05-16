@@ -10,7 +10,7 @@ import SwiftUI
 struct MyView: View {
     
     var body: some View {
-        Text("添加成功！")
+        Text("添加成功de！")
     }
     
 }
